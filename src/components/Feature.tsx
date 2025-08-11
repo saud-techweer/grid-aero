@@ -3,7 +3,7 @@ import React from "react";
 
 const FeatureSection: React.FC = () => {
   return (
-    <section className="relative w-full bg-[#96aa96] mt-[166px] overflow-hidden px-4 sm:px-6 lg:px-28 py-20">
+    <section className="relative w-full bg-[#96aa96] overflow-hidden px-4 sm:px-6 lg:px-28 py-20">
       {/* Top Dots */}
       <div className="flex justify-end mb-6">
         <div className="w-[6px] h-[6px] bg-black/30 border border-black/30" />
