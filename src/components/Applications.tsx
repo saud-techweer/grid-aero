@@ -80,7 +80,7 @@ import Title from "./Title";
 
 export default function Applications() {
   return (
-    <section className="relative mx-auto bg-[#F6F6F6] overflow-hidden">
+    <section className="relative mx-auto bg-[#EEE] overflow-hidden">
       {/* Background Illustration */}
       <div className="absolute bottom-0 left-0 z-0">
         <Image
