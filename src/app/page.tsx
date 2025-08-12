@@ -1,10 +1,13 @@
+import Applications from "@/components/Applications";
 import FeatureSection from "@/components/Feature";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import IllustrationBoard from "@/components/IllustrationBoard";
 import ImageWithBottomGradient from "@/components/ImageWithBottomGradient";
 import InfoSection from "@/components/InfoSection";
 import KeyPillars from "@/components/KeyPillars";
 import Nav from "@/components/Navbar";
+import OurTeam from "@/components/OurTeam";
 import TheGrid from "@/components/TheGrid";
 import Image from "next/image";
 
@@ -42,7 +45,9 @@ export default function Home() {
           },
         ]}
       />
-
+      <Applications />
+      <Footer />
+      {/* <OurTeam /> */}
       {/* <FeatureSection /> */}
     </section>
   );

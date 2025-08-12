@@ -1,27 +1,3 @@
-// import Link from "next/link";
-
-// export default function Nav() {
-//   return (
-//     <div className="flex justify-between items-center px-6 md:px-12 lg:px-28 py-4 relative z-[439]">
-//       <div className="w-[154px] h-[37.882px] bg-[url(/Logo.svg)] bg-cover bg-no-repeat" />
-//       <div className="flex gap-6 text-[#000] font-['Suisse_Int\'l_Mono'] text-[15px] leading-[13px] tracking-[-0.45px] whitespace-nowrap">
-//         <Link href="/team" className="text-center">
-//           TEAM
-//         </Link>
-//         <Link href="/careers" className="text-right">
-//           CAREERS
-//         </Link>
-//         <Link href="/newsroom" className="text-center">
-//           NEWSROOM
-//         </Link>
-//         <Link href="/contact" className="text-center">
-//           CONTACT
-//         </Link>
-//       </div>
-//     </div>
-//   );
-// }
-
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
