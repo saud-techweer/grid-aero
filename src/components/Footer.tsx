@@ -1,19 +1,20 @@
 // components/Footer.js
+import { suisse } from "@/styles/fonts";
 import Image from "next/image";
 import { FaLinkedinIn } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#EEE] py-[45px]">
+    <footer className={`bg-[#EEE] py-[45px] `}>
       <div className=" mx-auto flex flex-col md:flex-row justify-between items-start px-[5vw] lg:px-[8.33vw]">
         {/* Left Section */}
         <div className="flex flex-col gap-[45px]">
           {/* Logo */}
           <div className="flex flex-col gap-1">
-            <div>
+            <div className="mb-1">
               <Image src={"/Logo.svg"} width={110} height={27} alt="Logo" />
             </div>
-            <p className="text-sm text-gray-700">
+            <p className={`${suisse.className} text-sm text-gray-700`}>
               © 2025 GridAero. All Rights Reserved.
             </p>
           </div>
@@ -21,7 +22,7 @@ export default function Footer() {
           {/* Privacy Policy */}
           <a
             href="#"
-            className="text-sm text-gray-600 underline underline-offset-2"
+            className={`${suisse.className} text-sm text-gray-600 underline underline-offset-2`}
           >
             Privacy Policy
           </a>
@@ -30,9 +31,9 @@ export default function Footer() {
           <div className="flex items-center gap-[33px]">
             <a
               href="#"
-              className="border border-gray-400 px-6 py-2 flex items-center gap-2 text-sm"
+              className={`${suisse.className} border border-[#E77011] px-6 py-2 flex items-center gap-2 text-sm`}
             >
-              CONTACT <span className="text-lg">»</span>
+              CONTACT <span className="text-lg pl-3">»</span>
             </a>
             <a
               href="#"
@@ -43,7 +44,7 @@ export default function Footer() {
           </div>
 
           {/* Design credit */}
-          <p className="text-sm text-gray-600">
+          <p className={`${suisse.className} text-sm text-gray-600`}>
             Designed by{" "}
             <a href="#" className="underline underline-offset-2 text-gray-800">
               Passage Studio

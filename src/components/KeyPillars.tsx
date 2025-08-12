@@ -1,5 +1,6 @@
 import React from "react";
 import Title from "./Title";
+import { suisse } from "@/styles/fonts";
 
 type Pillar = {
   title: string;
@@ -40,7 +41,9 @@ const KeyPillars: React.FC<KeyPillarsProps> = ({ pillars }) => {
                   <h3 className="font-bold text-[20px] sm:text-[24px] xl:text-[28px] mb-4">
                     {pillar.title}
                   </h3>
-                  <p className="text-[14px] sm:text-[16px] xl:text-[18px] text-white/80 leading-relaxed">
+                  <p
+                    className={`${suisse.className} text-[14px] sm:text-[16px] xl:text-[18px] text-white/80 leading-relaxed`}
+                  >
                     {pillar.description}
                   </p>
                 </div>

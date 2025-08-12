@@ -8,7 +8,7 @@ const TheGrid: React.FC = () => {
       <div className="overflow-hidden px-4 sm:px-6 lg:px-28 md:py-20">
         {/* Top heading */}
         <h2
-          className="font-['Inter'] text-[clamp(33px,5vw,80px)] font-bold leading-tight tracking-[-0.04em] text-white text-left sm:text-center max-w-6xl mx-auto"
+          className="text-[clamp(33px,5vw,80px)] font-bold leading-tight tracking-[-0.04em] text-white text-left sm:text-center max-w-6xl mx-auto"
           style={{
             marginTop: "8.71%", // 278 / 863
           }}
@@ -18,7 +18,7 @@ const TheGrid: React.FC = () => {
           pickup truck of the skies
         </h2>
 
-        <p className="font-['Inter'] text-[clamp(18px,2.5vw,35px)] leading-[1.4] tracking-[-0.02em] text-white text-left sm:text-center max-w-3xl mx-auto mt-10 md:mb-[13.85%] sm:mb-0">
+        <p className="text-[clamp(18px,2.5vw,35px)] leading-[1.4] tracking-[-0.02em] text-white text-left sm:text-center max-w-3xl mx-auto mt-10 md:mb-[13.85%] sm:mb-0">
           Uncrewed, long-range cargo aircraft that move heavy payloads across
           thousands of miles.
           <br />

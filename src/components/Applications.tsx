@@ -77,6 +77,7 @@
 
 import Image from "next/image";
 import Title from "./Title";
+import { suisse } from "@/styles/fonts";
 
 export default function Applications() {
   return (
@@ -124,7 +125,9 @@ export default function Applications() {
           <h3 className="text-[22px] md:text-[27px] font-bold mb-[20px] md:mb-[27px]">
             Defense
           </h3>
-          <ul className="list-square pl-[20px] space-y-[8px] text-[14px] md:text-[16px] leading-[24px]">
+          <ul
+            className={`${suisse.className} list-square pl-[20px] space-y-[8px] text-[14px] md:text-[16px] leading-[24px]`}
+          >
             <li>Assured Logistics in contested and denied environments</li>
             <li>Intelligence, Surveillance &amp; Reconnaissance (ISR)</li>
             <li>Air-to-Air Refueling</li>
@@ -137,7 +140,9 @@ export default function Applications() {
           <h3 className="text-[22px] md:text-[27px] font-bold mb-[20px] md:mb-[27px]">
             Commercial
           </h3>
-          <ul className="list-square pl-[20px] space-y-[8px] text-[14px] md:text-[16px] leading-[24px]">
+          <ul
+            className={`${suisse.className}list-square pl-[20px] space-y-[8px] text-[14px] md:text-[16px] leading-[24px]`}
+          >
             <li>Short-Haul Regional Cargo</li>
             <li>Distributed E-Commerce Networks</li>
             <li>Essential Air Services</li>

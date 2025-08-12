@@ -9,6 +9,7 @@
 //   );
 // }
 
+import { suisse } from "@/styles/fonts";
 import React from "react";
 
 const Hero: React.FC = () => {
@@ -23,7 +24,9 @@ const Hero: React.FC = () => {
           </h1>
         </div>
 
-        <p className="font-['Suisse_Int\'l_Mono'] text-[18px] sm:text-[20px] lg:text-[23px] leading-[1.6] text-black tracking-[-0.02em] max-w-3xl">
+        <p
+          className={`${suisse.className} text-[18px] sm:text-[20px] lg:text-[23px] leading-[1.6] text-black tracking-[-0.02em] max-w-3xl`}
+        >
           The future of air cargo is distributed, uncrewed, and radically
           affordable.
           <br />
